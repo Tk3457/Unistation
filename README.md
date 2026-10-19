@@ -1,247 +1,73 @@
-# 🚀 UniStation — Campus Marketplace Platform
+# Welcome to your Lovable project
 
-UniStation is a modern full-stack web application designed to simplify buying and selling within a college campus ecosystem. Built as part of a DBMS academic project, the platform enables students to securely post listings, browse products, and interact through a scalable and responsive system.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/51964b55-9c40-4286-8f32-9109c9fc72b5
 
-## 🌟 Features
+## How can I edit this code?
 
-- 🔐 Secure JWT-based Authentication
-- 🛒 Buy & Sell Marketplace System
-- 📦 Product Listings & Management
-- ⚡ Responsive Modern UI
-- 🔎 Browse & Explore Listings
-- 🗂 CRUD Operations
-- ☁️ MongoDB Database Integration
-- 🔗 REST API Architecture
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 🧠 Project Overview
+Simply visit the [Lovable Project](https://lovable.dev/projects/51964b55-9c40-4286-8f32-9109c9fc72b5) and start prompting.
 
-UniStation demonstrates the integration of frontend, backend, and database systems into a real-world marketplace platform.
+Changes made via Lovable will be committed automatically to this repo.
 
-The project focuses on:
-- Database modeling
-- Backend API development
-- Authentication & authorization
-- Full-stack workflow
-- Client-server communication
-- Scalable application structure
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-# 🛠 Tech Stack
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Frontend
-- React.js
-- TypeScript
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
 - Vite
+- TypeScript
+- React
+- shadcn-ui
 - Tailwind CSS
-- shadcn/ui
 
-## Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
+## How can I deploy this project?
 
-## Tools & Platforms
-- Git & GitHub
-- MongoDB Atlas
-- Postman
-- Vercel / Netlify
-- Render
+Simply open [Lovable](https://lovable.dev/projects/51964b55-9c40-4286-8f32-9109c9fc72b5) and click on Share -> Publish.
 
----
+## Can I connect a custom domain to my Lovable project?
 
-# 📂 Project Structure
+Yes, you can!
 
-```bash
-UniStation/
-│
-├── frontend/              # React + Vite Frontend
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.ts
-│
-├── backend/               # Node.js + Express Backend
-│   ├── routes/
-│   ├── models/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── package.json
-│   └── index.js
-│
-├── .gitignore
-└── README.md
-```
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
----
-
-# ⚙️ Getting Started
-
-## 🔹 Prerequisites
-
-Make sure you have installed:
-
-- Node.js (LTS Version)
-- npm
-- MongoDB (Local or Atlas)
-
----
-
-# 📥 Clone Repository
-
-```bash
-git clone https://github.com/rohan-k-dev/unistation-campus-marketplace.git
-
-cd unistation-campus-marketplace
-```
-
----
-
-# 💻 Frontend Setup
-
-```bash
-cd frontend
-
-npm install
-
-npm run dev
-```
-
-Frontend runs on:
-
-```bash
-http://localhost:8080
-```
-
----
-
-# ⚙️ Backend Setup
-
-```bash
-cd backend
-
-npm install
-
-npm run dev
-```
-
-Backend runs on:
-
-```bash
-http://localhost:5000
-```
-
----
-
-# 🔑 Environment Variables
-
-Create a `.env` file inside the backend folder:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-```
-
----
-
-# 🔐 Authentication
-
-- JWT-based Authentication
-- Secure Login & Signup Flow
-- Protected Backend Routes
-- Token Validation Middleware
-
----
-
-# 📡 Sample API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/signup` | Register new user |
-| POST | `/api/auth/login` | User login |
-| GET | `/api/listings` | Fetch all listings |
-| POST | `/api/listings` | Create new listing |
-
----
-
-# 🚀 Available Scripts
-
-## Frontend
-
-```bash
-npm run dev
-npm run build
-npm run preview
-```
-
-## Backend
-
-```bash
-npm run dev
-npm start
-```
-
----
-
-# 🌍 Deployment
-
-| Service | Platform |
-|----------|----------|
-| Frontend | Vercel / Netlify |
-| Backend | Render |
-| Database | MongoDB Atlas |
-
----
-
-# 🛠 Common Issues & Fixes
-
-### npm install error
-
-```bash
-Invalid tag name "#"
-```
-
-✅ Ensure there are no comments (`#`) inside `package.json`.
-
----
-
-### MongoDB Connection Failure
-
-✅ Verify:
-- MongoDB URI
-- Atlas Network Access
-- Database Credentials
-
----
-
-# 🎓 Academic Relevance
-
-This project was developed as part of a DBMS course curriculum focusing on:
-
-- Database Design
-- API Development
-- Full-Stack Integration
-- Backend Architecture
-- CRUD Operations
-- Authentication Systems
-
----
-
-# 👨‍💻 Author
-
-## Rohan Kumar
-
-- GitHub: https://github.com/rohan-k-dev
-- LinkedIn: https://www.linkedin.com/in/rohan19725
-
----
-
-# ⭐ Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub!
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
